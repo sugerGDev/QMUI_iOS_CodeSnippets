@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@apiclass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ &lt;#Title#&gt;请求
+ */
+@interface &lt;#Title#&gt;Request : NetworkRequest
+@end
+
+@implementation &lt;#Title#&gt;Request
+@end
+
+
+/**
+ &lt;#Title#&gt;返回
+ */
+@interface &lt;#Title#&gt;Response : NetworkResponse
+@end
+
+@implementation &lt;#Title#&gt;Response
+@end
+
+
+
+
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>47B97B84-8A9F-4862-B658-AC7849E83C75</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>生成API类方便使用，简便Request 和 Response</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>M_API_CLASS</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
